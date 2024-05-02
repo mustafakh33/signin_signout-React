@@ -1,0 +1,21 @@
+main{
+  color: #1b1b1b;
+  height: calc(100vh - 133px);
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+
+.light main p, .light main h6, .light main time{
+  color: #555;
+}
+
+.light main button{
+  border: 2px solid white;
+}

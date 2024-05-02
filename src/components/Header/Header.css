@@ -1,0 +1,67 @@
+.myheader .ali{
+  background-color: teal;
+}
+
+button{
+  text-transform: capitalize;
+}
+.fa-solid{
+  font-size: 20px;
+  transition: all 0.1s;
+}
+.fa-solid:hover{
+  font-size: 22px;
+  cursor: pointer;
+}
+.fa-sun{
+  color: orange;
+}
+.hide-when-mobile {
+  display: flex;
+  justify-content: space-around;
+  align-items: center
+}
+
+.signout{
+  all: unset;
+  padding: 8px 15px;
+}
+
+/* ==================
+    3. header of mobile
+===================== */
+.logo {
+  animation: logoani 25s infinite;
+}
+
+@keyframes logoani {
+
+  0%,
+  100% {
+    opacity: 0.5;
+  }
+
+  50% {
+    letter-spacing: 7px;
+    opacity: 1;
+  }
+}
+
+
+.logo:hover {
+  font-size: x-large;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

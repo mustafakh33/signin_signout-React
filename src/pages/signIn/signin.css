@@ -1,0 +1,46 @@
+.forgot-password{
+  background-color: whitesmoke !important;
+  width: 400px;
+  height: 333px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  scale: 0;
+  transform: translateY(-100%);
+  transition: 1s;
+}
+.show-forgot-password{
+  scale: 1;
+  transform: translateY(0%);
+}
+.forgot-pass{
+  font-size: 19px;
+  font-weight: normal;
+  cursor: pointer;
+}
+.forgot-pass:hover{
+  font-size: 20px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+.close .fa-xmark{
+  font-size: 29px;
+  color: #444;
+  position: absolute;
+  top: 17px;
+  right: 22px;
+  transition: all 0.3s;
+}
+.close .fa-xmark:hover{
+  font: 30px;
+  color: orange;
+  transform: rotate(180deg);
+}
+.check-email{
+  color: #333;
+  font-size: 16px;
+  margin-top: 25px;
+  line-height: 25px;
+}
